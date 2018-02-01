@@ -1,0 +1,36 @@
+x-to delete the unwanted character
+u-to undo the last commanado
+ctrl-r to redo
+A-append text at end
+:wq to save 
+:q! trash all changes
+dw move to begining of the word n del word
+2w move 2 words frwd
+3e move 3 words frwd
+0 move to start of line
+d2w delete 2 words
+dd delete entire 1 line
+p puts bck deleted text
+r replace the letter
+ce change end of word
+ delete word and mode 
+g move to bottom of file
+gg move to start of the file
+% find matching }]or)
+:s/old/new/g substitute new to old and where g is globally
+/ bckward search n find nxt occurence and n opp direction
+? frwd search
+:! shell comannad like :!dir,:lls
+:w test .save file
+v start visul mode and perform operation like D delete 
+:r filename will insert content
+R replace character
+y copy p for paste
+yw copy 1 frwd
+o open line below and start insert mode
+o open line above
+a after end of line
+y operators copies and p pastes
+R enter replace mode
+ctrl w jump from another window
+
