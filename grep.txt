@@ -1,0 +1,49 @@
+unix lab
+grep commands
+
+1.ceate a file using cat command
+2.enter some bits into the file and then perform the grep option available
+  -V, --version
+              Output the version number of grep and exit.
+  -E, --extended-regexp
+              Interpret PATTERN as an extended regular  expression  (ERE,  see
+              below).
+
+  -F, --fixed-strings
+              Interpret PATTERN as a list of fixed strings (instead of regular
+              expressions), separated by newlines,  any  of  which  is  to  be
+              matched.
+
+  -G, --basic-regexp
+              Interpret  PATTERN  as  a  basic  regular  expression  (BRE, see
+              below).  This is the default.
+
+  -P, --perl-regexp
+              Interpret the pattern as a  Perl-compatible  regular  expression
+              (PCRE).    This   is  experimental  and  grep  -P  may  warn  of
+              unimplemented features.
+  -e PATTERN, --regexp=PATTERN
+              Use PATTERN as the pattern.  If this  option  is  used  multiple
+              times or is combined with the -f (--file) option, search for all
+              patterns given.  This option can be used to  protect  a  pattern
+              beginning with “-”.
+
+  -f FILE, --file=FILE
+              Obtain patterns from FILE, one per line.  If this option is used
+              multiple times or is combined with  the  -e  (--regexp)  option,
+              search  for  all  patterns  given.  The empty file contains zero
+              patterns, and therefore matches nothing.
+
+  -i, --ignore-case
+              Ignore case distinctions, so that characters that differ only in
+              case match each other.
+
+
+1.character* -display 0 or more matches.
+2.character+ -display one or more matches.
+3.character? -display 0 or 1 match.
+4. .* -none or anything.
+5. ^character -display the bits starting with the mentioned letter.
+6. character$ -display the bits ending with the mentioned letter.
+
+
