@@ -1,0 +1,10 @@
+names='arun aman premsagar ifthekar manohar quit'
+ps3='select'
+select var in $names
+do
+	if [ $var == 'quit' ]
+	then
+		break
+	fi
+	echo " hello $var "
+done
